@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBAction func sayHello(_ sender: Any) {
-        helloLabel.text = "Hello"
+        helloLabel.text = "Hello World from GITHub"
     }
     @IBOutlet weak var helloLabel: UILabel!
     override func viewDidLoad() {
